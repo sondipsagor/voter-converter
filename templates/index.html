@@ -1,0 +1,21 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Production PDF To Excel</title>
+<style>
+body{font-family:Arial;max-width:800px;margin:auto;padding:30px}
+.drop{border:2px dashed #999;padding:40px;text-align:center}
+</style>
+</head>
+<body>
+<h2>বাংলা ভোটার তালিকা PDF → Excel</h2>
+<form action="/api/convert" method="post" enctype="multipart/form-data">
+<div class="drop">
+<input type="file" name="pdf" accept=".pdf" required>
+</div><br>
+<button>Convert & Download</button>
+</form>
+</body>
+</html>
